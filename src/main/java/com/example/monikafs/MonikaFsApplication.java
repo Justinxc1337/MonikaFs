@@ -15,7 +15,7 @@ public class MonikaFsApplication {
         SpringApplication.run(MonikaFsApplication.class, args);
     }
 
-    @GetMapping("/hello")
+    @GetMapping("/forside")
     public String sayHello(@RequestParam(value = "myName", defaultValue = "World") String name) {
         return String.format("Hello %s!", name);
     }
