@@ -7,14 +7,11 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.stereotype.Controller;
 
+@SpringBootApplication
 @RestController
 @Controller
-public class LoginController {
- /* not fucking implemented yet  */
-    @PostMapping("/login")
-    public String login() {
 
-        String redirectUrl = "http://localhost:8080/forside";
-        return "redirect:" + redirectUrl;
-    }
+public class LoginController {
+    /* not fucking implemented yet  */
+
 }
