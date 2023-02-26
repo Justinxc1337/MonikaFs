@@ -35,11 +35,11 @@ public class MonikaFsApplication {
 
 
 
-    @GetMapping("/login")
+    @GetMapping("/forside")
     @ResponseBody
     public String index() throws IOException {
         ResourceLoader resourceLoader = new DefaultResourceLoader();
-        Resource resource = resourceLoader.getResource("classpath:/static/login.html");
+        Resource resource = resourceLoader.getResource("classpath:/static/forside.html");
         InputStream inputStream = resource.getInputStream();
         byte[] bytes = StreamUtils.copyToByteArray(inputStream);
         String htmlContent = new String(bytes, StandardCharsets.UTF_8);
