@@ -27,7 +27,7 @@ public class MonikaFsApplication {
     public String sayHello(@RequestParam(value = "myName", defaultValue = "World") String name) {
         return String.format("Hello %s!", name);
     }
-
+ /* up and down both does nothing other than saying their own shit currently */
     @GetMapping("/medarbejder")
     public String medarbejder() {
         return "medarbejder";
