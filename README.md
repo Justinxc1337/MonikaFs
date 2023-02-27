@@ -1,7 +1,9 @@
 # Monikas Frisørsalon Webside
 
-
-
+MonikaFsApplication = Main (Secondary Controller = LoginController (Out of order)).
+Index.html += (login-page.css x login-page.js).
+forside.html += (forside.css x forside.js).
+medarbejder.html += (UNIDENTIFIED).
 
 
 
