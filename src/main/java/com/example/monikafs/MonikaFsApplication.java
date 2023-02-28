@@ -47,6 +47,11 @@ public class MonikaFsApplication {
 
     }
 
+    @GetMapping("/?username=dennis&password=umaru")
+    public String xx() {
+        return "unknown statement required, file is [REDACTED]";
+    }
+
 
 
 
