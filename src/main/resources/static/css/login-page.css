@@ -38,9 +38,9 @@ body {
     background-position: center;
 }
 
-.MFLogo:hover {
+/* .MFLogo:hover {
     background-size: 100%;
-}
+} */
 
 .MFLogoHead1 {
     width: 1500px;
@@ -124,7 +124,7 @@ body {
     background-color: #3a3a3a;
     cursor: pointer;
     outline: none;
-    margin-bottom: 6px;
+    margin-bottom: 10px;
 }
 
 
