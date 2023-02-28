@@ -29,42 +29,33 @@ body {
     text-decoration: underline;
 }
 
-.MFLogo {
-    width: 1900px;
-    height: 500px;
-    background-image: url(https://raw.githubusercontent.com/WonderWeasel01/WebsiteFrisoer/main/Pictures/MFLogo.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+
+
+
+#container {
+    display: flex;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    margin-inside: 20px;
 }
 
-/* .MFLogo:hover {
-    background-size: 100%;
-} */
+.MFLogo{
+    height: auto;
+    width: auto;
 
-.MFLogoHead1 {
-    width: 1500px;
-    height: 500px;
-    background-image: url(https://raw.githubusercontent.com/Justinxc1337/MonikaFs/master/Pictures/mfstyle.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: left;
+}
+
+.MFLogoHead1{
+    height: auto;
+    width: auto;
+}
+
+.MFLogoHead2{
+    height: auto;
+    width: auto;
     transform: scaleX(-1);
-    display: inline-block;
-    margin-left: 400px;
-    margin-top: -550px;
-}
-
-.MFLogoHead2 {
-    width: 1500px;
-    height: 500px;
-    background-image: url(https://raw.githubusercontent.com/Justinxc1337/MonikaFs/master/Pictures/mfstyle.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    object-position: right;
-    display: inline-block;
-    margin-right: 400px;
-    margin-top: -610px;
 }
 
 
@@ -95,10 +86,10 @@ body {
 }
 
 #login-form {
-    align-self: flex-start;
     display: grid;
     justify-items: center;
     align-items: center;
+
 }
 
 .login-form-field::placeholder {
